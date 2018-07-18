@@ -1,0 +1,735 @@
+*{
+    margin: 0;
+    padding: 0;
+    list-style: none;
+    text-decoration: none;
+}
+.header-wrapper{
+    width: 100%;
+    background-color: #0a3665;
+}
+.header-wrapper .header {
+    position: relative;
+    max-width: 1200px;
+    margin: 0 auto; 
+    width: 90%;
+    height: 122px;
+}
+
+/* container start */
+.header-wrapper .header .container{
+    padding: 50px 0px 14px;
+    height: 58px;
+    display: flex;
+}
+.header-wrapper .header .container .logo{
+    display: inline-block;
+    width: 218px;
+    height: 58px;
+    flex: 0 0 218px;
+}
+.header-wrapper .header .container .input{
+    flex: 1;
+    height: 58px;
+    position: relative;
+}
+.header-wrapper .header .container .input input{
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translateX(-50%) translateY(-50%);
+    border: none;
+    height: 40px;
+    padding: 0 50px 0 13px;
+    border-radius: 3px;
+    width: 85%;
+    box-sizing: border-box;
+}
+.header-wrapper .header .container .input .icon-search{
+    background-image: url('../images/search-icon.png');
+    display: block;
+    width: 30px;
+    height: 30px;
+    background-size: 30px 30px;
+    position: absolute;
+    right: 10%;
+    top: 50%;
+    transform: translateY(-50%);
+    cursor: pointer;
+}
+.header-wrapper .header .container .custom{
+    flex: 0 0 185px;
+    width: 185px;
+    height: 58px;
+    position: relative;
+    line-height: 58px;
+}
+.header-wrapper .header .container .custom a{
+    padding-right: 20px;
+    font-size: 18px;
+    color: #fff;
+    font-weight: 500;
+    text-decoration: underline;
+}
+/* container end */
+
+
+/* login-bar start*/
+.header-wrapper .header .login-bar{
+    position: absolute;
+    right: 0;
+    top: 0;
+    color: #fff;
+    padding: 10px 0;
+    font-size: 0;
+}
+.header-wrapper .header .login-bar a{
+    color: #fff;
+    font-weight: bold;
+    font-size: 12px;
+    display: inline-block;
+    vertical-align: middle;
+}
+.header-wrapper .header .login-bar a:nth-of-type(2){
+    font-weight: 500;
+}
+.header-wrapper .header .login-bar .shuxian{
+    font-weight: 200;
+    font-size: 14px;
+    vertical-align: middle;
+    padding: 0 10px;
+}
+.header-wrapper .header .login-bar a:nth-of-type(3){
+    color: red;
+    font-weight: 400;
+}
+.header-wrapper .header .login-bar span{
+    vertical-align: top;
+}
+.header-wrapper .header .login-bar .icon-shop{
+    display: inline-block;
+    background-image: url('../images/cart-icon2.png');
+    width: 16px;
+    height: 14px;
+    background-size: 16px 14px;
+    margin-right: 5px;
+}
+.header-wrapper .header .login-bar .icon-talk{
+    display: inline-block;
+    background: url('../images/icons.png');
+    width: 15px;
+    height: 16px;
+    background-position: -35px -7px;
+    margin-right: 8px;
+}
+/* login-bar end*/
+
+/* nav-bar start */
+.header-wrapper .nav-bar-wrapper{
+    width: 100%;
+    height: 35px;
+    background-color: #0669b2;
+    z-index:999;
+}
+.header-wrapper .nav-bar-wrapper .nav-bar {
+    max-width: 1200px;
+    margin: 0 auto; 
+    width: 90%;
+    height: 35px;
+    line-height: 35px;
+    font-size: 0;
+}
+.header-wrapper .nav-bar a{
+    color: #fff;
+    vertical-align: top;
+    font-size: 12px;
+    font-weight: 700;
+    margin-right: 20px;
+    padding: 0 10px;
+    display: inline-block;
+    height: 35px;
+}
+.header-wrapper .nav-bar a:nth-of-type(2){
+    padding: 0 15px;
+}
+.header-wrapper .nav-bar a:last-of-type{
+    margin: 0;
+}
+.header-wrapper .nav-bar a .icon-nike{
+    vertical-align: middle;
+    display: inline-block;
+    background-image: url('../images/nike-logo.jpg');
+    width: 60px;
+    height: 26px;
+    background-size: 60px 26px;
+}
+.header-wrapper .nav-bar a:hover{
+    background-color: #06558e;
+    color: red;
+}
+
+.header-wrapper .small-ad-img{
+    font-size: 0;
+    width: 100%;
+    display: none;
+}
+.header-wrapper .small-ad-img img{
+    width: 100%;
+}
+/* nav-bar end */
+
+/* header-wrapper end */
+
+
+/* body-container start */
+.body-container{
+    position: relative;
+    width: 100%;
+}
+.body-container .ad-img{
+    font-size: 0;
+    width: 100%;
+}
+.body-container .ad-img img{
+    width: 100%;
+}
+
+/* 模块1 */
+.body-container .section{
+    width: 90%;
+    margin: 0;
+    padding: 0 5%;
+}
+.body-container .section .team-select{
+    height: 20px;
+    line-height: 20px;
+    position: relative;
+    text-align: center;
+    margin: 20px 0;
+}
+.body-container .section .team-select::before{
+    height: 1px;
+    content: "";
+    background-color: #a7a9ac;
+    position: absolute;
+    left: 0;
+    top: 10px;
+    width: 100%;
+}
+.body-container .section .team-select h3{
+    font-size: 18px;
+    display: inline-block;
+    padding: 0 16px;
+    background: #fff;
+    position: relative;
+    font-weight: 400;
+}
+.section .team-directory-wrapper{
+    width: 100%;
+    position: relative;
+    font-size: 0;
+}
+.section .team-directory-wrapper .team-left-wrap{
+    width: 93%;
+    display: inline-block;
+}
+.section .team-directory-wrapper .team-left-wrap .logo-wrap{
+    width: 6.25%;
+    float: left;
+}
+.section .team-directory-wrapper .team-left-wrap .logo{
+    width: 80%;
+    padding: 10%;
+}
+.section .team-directory-wrapper .team-left-wrap .logo img{
+    width: 100%;
+}
+.section .team-directory-wrapper .team-left-wrap .east::after,
+.section .team-directory-wrapper .team-left-wrap .west::after{
+    display: block;
+    content: "";
+    clear: both;
+}
+.section .team-directory-wrapper .team-right-wrap{
+    width: 7%;
+    display: inline-block;
+    position: absolute;
+    top: 2px;
+}
+.section .team-directory-wrapper .team-right-wrap .logo-wrap{
+    width: 68%;
+    padding: 0 20% 0 12%;
+}
+.section .team-directory-wrapper .team-right-wrap .logo-wrap img{
+    width: 100%;
+}
+
+/* 隐藏模块2 */
+.cloth{
+    width: 90%;
+    margin: 0;
+    padding: 0 5% 20px;
+    display: none;
+    justify-content: space-between;
+    height: 30px;
+    line-height: 30px;
+    text-align: center;
+}
+.cloth .cloth-btn{
+    width: 22%;
+    background-color: #0a3665;
+    color: #fff;
+    border-radius: 3px;
+}
+
+/* 模块2 */
+.section .big-ad-img-wrap{
+    font-size: 0;
+}   
+.section .big-ad-img-wrap .big-ad-img{
+    display: inline-block;
+    width: 50%;
+}
+.section .big-ad-img-wrap .big-ad-img .big-ad-img-margin-left{
+    margin: 0 7px 14px 0;
+}
+.section .big-ad-img-wrap .big-ad-img .big-ad-img-margin-right{
+    margin: 0 0 14px 7px;
+}
+.section .big-ad-img-wrap .big-ad-img img{
+    width: 100%;
+}
+
+/* 模块3 */
+.section .index-brand-wrap{
+    width: 60%;
+    margin: 0 auto;
+    font-size: 0;
+}
+.section .index-brand-wrap li{
+    width: 16.6%;
+    display: inline-block;
+}
+.section .index-brand-wrap li a{
+    width: 100%;
+    display: inline-block;
+}
+.section .index-brand-wrap li a img{
+    width: 76%;
+    padding: 12%;
+}
+
+/* 模块4 */
+.section .love{
+    width: 90%;
+    height: 20px;
+    line-height: 20px;
+    position: relative;
+    text-align: center;
+    margin: 20px auto;
+}
+.section .love::before{
+    height: 1px;
+    content: "";
+    background-color: #a7a9ac;
+    position: absolute;
+    left: 0;
+    top: 10px;
+    width: 100%;
+}
+.section .love h3{
+    font-size: 18px;
+    display: inline-block;
+    padding: 0 16px;
+    background: #fff;
+    position: relative;
+    font-weight: 400;
+}
+
+/* 模块5 轮播图引入css */
+
+/* 模块6 footer */
+.section:last-of-type{
+    background-color: #0a3665;
+    margin-top: 40px;
+}
+.section .footer{
+    color: #fff;
+}
+.section .footer a{
+    color: #fff;
+}
+.section .footer .nba-offical{
+    padding: 40px 0 20px 0;
+    display: flex;
+    border-bottom: 1px solid #ffffff;
+}
+.section .footer .nba-offical .nba-logo{
+    flex: 1;
+    margin-bottom: 20px;
+}
+.section .footer .nba-offical .nba-three-wrapper{
+    flex: 3;
+    display: flex;
+}
+.section .footer .nba-offical .nba-menu{
+    flex: 1;
+}
+.section .footer .nba-offical .nba-menu div{
+    padding-bottom: 30px;
+}
+
+.section .footer .nba-offical .nba-saoma{
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+}
+.section .footer .nba-offical .nba-saoma .icon{
+    display: block;
+    width: 48px;
+    height: 48px;
+    background-image: url('../images/footer-qrCode-btn.jpg');
+    margin: 8px 0 20px 0;
+}
+.section .footer .nba-offical .nba-saoma .nba-weixin{
+    flex: 1;
+}
+.section .footer .nba-offical .nba-saoma .nba-app{
+    flex: 1;
+}
+
+
+.section .footer .nba-offical .nba-contact-us{
+    flex: 1;
+    white-space: nowrap;
+    font-size: 14px;
+}
+.section .footer .nba-offical .nba-contact-us .say-you-want{
+    display: none;
+    text-align: center;
+}
+.section .footer .nba-offical .nba-contact-us p span{
+    margin-right: 8px;
+}
+.section .footer .nba-offical .nba-contact-us .icon{
+    display: inline-block;
+    background-image: url('../images/icons.png');
+}
+.section .footer .nba-offical .nba-contact-us .icon-footer-email{
+    width: 16px;
+    height: 11px;
+    background-position: -60px -10px;
+}
+.section .footer .nba-offical .nba-contact-us .icon-footer-phone{
+    width: 14px;
+    height: 14px;
+    background-position: -86px -10px;
+}
+.section .footer .nba-offical .nba-contact-us .icon-footer-service{
+    width: 16px;
+    height: 14px;
+    background-position: -35px -10px;
+}
+.section .footer .nba-offical .nba-contact-us .icon-footer-weibo{
+    width: 17px;
+    height: 14px;
+    background-position: -280px -10px;
+}
+.section .footer .nba-offical .nba-contact-us p{
+    padding-bottom: 15px;
+}
+.section .footer .nba-beian{
+    font-size: 12px;
+}
+.section .footer .nba-beian .nba-beian-info{
+    font-size: 0;
+}
+.section .footer .nba-beian .nba-beian-info span:first-of-type{
+    display: inline-block;
+    padding: 20px 10px 10px 0;
+    font-size: 12px; 
+}
+.section .footer .nba-beian .nba-beian-info a{
+    display: inline-block;
+    padding: 20px 0 10px 0;
+    font-size: 14px;
+    font-weight: 500;
+    margin: 0 15px;
+}
+.section .footer .nba-beian .nba-beian-info .shuxian{
+    font-size: 14px;
+}
+.section .footer .nba-beian .police-wrap{
+    padding-bottom: 5px;
+}
+.section .footer .nba-beian .police{
+    display: inline-block;
+    width: 20px;
+    height: 20px;
+    background-image: url('../images/icon-b.png');
+    background-size: 100% 100%;
+    vertical-align: top;
+    margin-right: 7px;
+}
+.section .footer .nba-beian .police-wrap .police-info{
+    vertical-align: top;
+}
+.section .footer .nba-beian .text{
+    padding-bottom: 18px;
+}
+
+
+/* 响应式布局 */
+@media screen and (max-width: 1003px) {
+    .header-wrapper .header{
+        width: 100%;
+    }
+    .header-wrapper .header .container{
+        padding: 24px 0 5px 24px;
+    }
+    .header-wrapper .header .container .input{
+        position: absolute;
+        height: 40px;
+        right: 18px;
+        bottom: 10px;
+        width: 198px;
+    }
+    .header-wrapper .header .container .input input{
+        position: static;
+        width: 100%;
+        left: auto;
+        top: auto;
+        transform: none;
+    }
+    .header-wrapper .header .container .input .icon-search{
+        right: 8px;
+    }
+    .header-wrapper .header .container .custom{
+        position: absolute;
+        right: 18px;
+    }
+    .header-wrapper .header .login-bar{
+        bottom: 0;
+        left: 24px;
+        right: initial;
+        top: initial;
+    }
+
+
+    .header-wrapper .nav-bar-wrapper .nav-bar{
+        margin-left: 19px;
+    }
+    .header-wrapper .nav-bar-wrapper .nav-bar a{
+        padding: 0 5px;
+        margin-right: 15px;
+    }
+
+
+    .section .team-directory-wrapper .team-left-wrap{
+        width: 100%;
+    }
+    .section .team-directory-wrapper .team-left-wrap .east,
+    .section .team-directory-wrapper .team-left-wrap .west{
+        width: 50%;
+        display: inline-block;
+    }
+    .section .team-directory-wrapper .team-left-wrap .logo-wrap{
+        width: 33.3%;
+    }
+    .section .team-directory-wrapper .team-left-wrap .logo-wrap .logo{
+        width: 70%;
+        padding: 15%;
+    }
+    .section .team-directory-wrapper .team-left-wrap .east-icon,
+    .section .team-directory-wrapper .team-left-wrap .west-icon{
+        width: 100%;
+    }
+    .section .team-directory-wrapper .team-left-wrap .east .east-icon .logo,
+    .section .team-directory-wrapper .team-left-wrap .west .west-icon .logo{
+        width: 20%;
+        padding: 10% 40% 5%;  
+    }
+    .section .team-directory-wrapper .team-left-wrap .east-item::after,
+    .section .team-directory-wrapper .team-left-wrap .west-item::after{
+        display: block;
+        content: "";
+        clear: both;
+    }
+    .section .team-directory-wrapper .team-left-wrap .east-item,
+    .section .team-directory-wrapper .team-left-wrap .west-item{
+        width: 75%;
+        padding: 0 15%;
+    }
+    .section .team-directory-wrapper .team-right-wrap{
+        display: none;
+    }
+    .section .team-directory-wrapper .middle-line{
+        height: 98%;
+        position: absolute;
+        width: 1px;
+        margin-left: -0.5px;
+        left: 50%;
+        top: 0;
+        background-color: #ddd;
+    }
+
+
+    
+    .section .footer .nba-offical{
+        flex-direction: column;
+    }
+}
+
+@media screen and (max-width: 782px) {   
+    .section .big-ad-img-wrap .big-ad-img{
+        display: inline-block;
+        width: 100%;
+    }
+    .section .big-ad-img-wrap .big-ad-img .big-ad-img-margin-left,
+    .section .big-ad-img-wrap .big-ad-img .big-ad-img-margin-right{
+        margin: 0 0 20px;
+    }
+
+    .section .footer .nba-offical,
+    .section .footer .nba-offical .nba-three-wrapper{
+        display: block;
+    }
+    .section .footer .nba-offical .nba-saoma,
+    .section .footer .nba-offical .nba-menu{
+        display: none;        
+    }
+    .section .footer .nba-offical .nba-contact-us{
+        width: 196px;
+        margin: 0 auto;
+    }
+    .section .footer .nba-offical .nba-contact-us .say-you-want{
+        display: block;
+    }
+    .section .footer .nba-offical .nba-contact-us .contact{
+        text-align: center;
+    }
+    .section .footer .nba-offical .nba-logo{
+        width: 30%;
+        padding: 0 35%;
+    }
+    .section .footer .nba-offical .nba-logo img{
+        width: 100%;
+    }
+
+    
+    .section .footer .nba-beian .nba-beian-info a{
+        font-size: 12px;
+    }
+    
+    .section .footer .nba-beian .nba-beian-info .shuxian{
+        font-size: 0px;
+    }
+
+    .section .team-directory-wrapper{
+        margin-bottom: 20px;
+    }
+    .section .team-directory-wrapper .team-left-wrap .east-item,
+    .section .team-directory-wrapper .team-left-wrap .west-item{
+        display: none;
+    }
+    .section .team-directory-wrapper .team-left-wrap{
+        border: 1px solid #ddd;
+        box-sizing: border-box;
+    }
+    .section .team-directory-wrapper .middle-line{
+        height: 100%;
+    }
+    .section .team-directory-wrapper .team-left-wrap .east .east-icon .logo,
+    .section .team-directory-wrapper .team-left-wrap .west .west-icon .logo{
+        width: 100%;
+        padding: 10% 0 5%;
+        text-align: center;
+        font-size: 0;
+    }
+    .section .team-directory-wrapper .team-left-wrap .east .east-icon .logo img,
+    .section .team-directory-wrapper .team-left-wrap .west .west-icon .logo img{
+        width: 40%;
+        vertical-align: middle;
+    }
+    .section .team-directory-wrapper .nba-position{
+        font-size: 18px;
+        display: inline-block;
+        text-decoration: underline;
+        color: #000;
+        vertical-align: middle;
+    }
+    .cloth{
+        display: flex;
+    }
+    .nav-bar-wrapper{
+        display: none;
+    }
+    .header-wrapper .header .login-bar,
+    .header-wrapper .header .container .custom,
+    .body-container .ad-img{
+        display: none;
+    }
+    .header-wrapper .small-ad-img{
+        display: block;
+    }
+
+    .header-wrapper .header {
+        position: relative;
+        max-width: 1200px;
+        margin: 0 auto; 
+        width: 100%;
+        height: auto;
+    }
+    
+    .header-wrapper .header .container{
+        padding: 0;
+        height: auto;
+        width: 100%;
+        font-size: 0;
+        display: block;
+    }
+    .header-wrapper .header .container .logo {
+        display: inline-block;
+        width: 46%;
+        height: auto;
+        padding: 0 27%;
+    }
+    .header-wrapper .header .container .logo img{
+        width: 50%;
+        padding: 5% 25%;
+    }
+    .header-wrapper .header .container .input{
+        height: 60px;
+        width: 100%;
+        background-color: #fff;
+        position: relative;
+        padding: 0;
+        right: auto;
+        bottom: auto;
+    }
+    .header-wrapper .header .container .input input{
+        position: absolute;
+        left: 50%;
+        top: 50%;
+        transform: translateX(-50%) translateY(-50%);
+        border: none;
+        height: 40px;
+        padding: 0 50px 0 13px;
+        border-radius: 3px;
+        width: 85%;
+        box-sizing: border-box;
+        border: 2px solid #cfcfcf;
+    }
+    .header-wrapper .header .container .input .icon-search{
+        background-image: url('../images/search-icon.png');
+        display: block;
+        width: 30px;
+        height: 30px;
+        background-size: 30px 30px;
+        position: absolute;
+        right: 11%;
+        top: 50%;
+        transform: translateY(-50%);
+        cursor: pointer;
+    }
+}

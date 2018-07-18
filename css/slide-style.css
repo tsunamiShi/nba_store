@@ -1,0 +1,79 @@
+.my-slide-wrap{
+    width: 90%;
+    margin: 0 auto;
+    position: relative;
+}
+.my-slide{
+    position: relative;
+    width: 90%;
+    margin: 0 auto;
+    overflow: hidden;
+}
+.my-slide ul{
+    position: absolute;
+    font-size: 0;
+    left: 0;
+}
+.my-slide ul li{
+    display: inline-block;
+    font-size: 18px;
+}
+.my-slide ul li a{
+    width: 86%;
+    display: inline-block;
+    padding: 0 7%;
+}
+.my-slide ul li a img{
+    width: 100%;
+}
+.my-slide ul li p{
+    width: 86%;
+    margin: 0 auto;
+    font-size: 12px;
+    padding-top: 10px;
+}
+.my-slide ul li p:nth-of-type(2){
+    font-size: 14px;
+    font-weight: 700;
+}
+
+/* slide-turn */
+.my-slide-wrap .slide-turn-btn{
+    position: absolute;
+    width: 10%;
+    top: 50%;
+    transform: translateY(-50%);
+    cursor: pointer;
+}
+.my-slide-wrap .prev{
+    left: 0;
+}
+.my-slide-wrap .next{
+    right: 0;
+}
+.my-slide-wrap .slide-turn-icon{
+    display: inline-block;
+    position: absolute;
+    width: 14px;
+    height: 32px;
+    background-image: url('../images/icons.png');
+    background-repeat: no-repeat;
+    top: 50%;
+    transform: translateY(-50%);
+}
+.my-slide-wrap .prev .slide-turn-icon{
+    background-position: -345px -87px;
+    left: 20%;
+}
+.my-slide-wrap .next .slide-turn-icon{
+    background-position: -390px -87px;
+    right: 20%;
+}
+.my-slide-wrap .prev .slide-turn-icon:hover{
+    background-position: -257px -87px;
+    left: 20%;
+}
+.my-slide-wrap .next .slide-turn-icon:hover{
+    background-position: -302px -87px;
+    right: 20%;
+}

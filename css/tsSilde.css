@@ -1,0 +1,96 @@
+.tsSlide{
+	position:relative;
+	margin:auto;
+}
+.tsSlide .mySlideshow{
+	list-style:none;
+	position:relative;
+	padding:0;
+	margin:0;
+}
+.tsSlide .mySlideshow{
+	display:block;
+	overflow:hidden;
+}
+.tsSlide .mySlideshow li{
+	display:none;
+	width:100%;
+	position:absolute;
+	top:0;
+	left:0;
+	z-index:0;
+	height: 100%;
+}
+.tsSlide .current{
+	z-index:1 !important;
+}
+.tsSlide .paginator li:hover,
+.tsSlide .progress{
+	background:rgba(255,255,255,.5);
+}
+.tsSlide .progress{
+	position: absolute;
+	top: 0;
+	height:3px;
+	z-index:2;
+}
+.tsSlide .paginator{
+	position: absolute;
+	width: 100%;
+	height: 16px;
+	bottom: 10px;
+	text-align: center;
+	z-index: 1;
+}
+.tsSlide .paginator li{
+	display: inline-block;
+	background:rgba(0,0,0,.7);
+	border-radius: 8px;
+	box-sizing: border-box;
+	height:16px;
+	width:16px;
+	margin:0 3px;
+	cursor:pointer;
+}
+.tsSlide .navigator {
+	position: absolute;
+	height: 100%;
+	width: 10%;
+	top: 0;
+	z-index: 1;
+	cursor: pointer;
+}
+.tsSlide .prev{
+	left: 0;
+	background-position: 10px 10px;
+}
+.tsSlide .prev span{
+	background-image: url('../images/icons.png');
+	width: 42px;
+	height: 94px;
+	display: inline-block;
+	background-position: -10px -2488px;
+	box-sizing: border-box;
+	position: absolute;
+	right: 10%;
+	top: 50%;
+	transform: translateY(-50%);
+}
+.tsSlide .next{
+	right: 0;
+}
+.tsSlide .next span{
+	background-image: url('../images/icons.png');
+	width: 42px;
+	height: 94px;
+	display: inline-block;
+	background-position: -133px -2488px;
+	box-sizing: border-box;
+	position: absolute;
+	top: 50%;
+	transform: translateY(-50%);
+	left: 10%;
+}
+.tsSlide .current{
+	background-color: rgba(255, 0, 0, 0.8) !important;
+}

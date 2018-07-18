@@ -1,0 +1,28 @@
+.first{
+	background: url("../images/15314528688398910.jpg") center no-repeat;
+	background-size: 100% 100%;
+}
+.second{
+	background:url("../images/15312942915553914.jpg") center no-repeat;
+	background-size: 100% 100%;
+}
+.third{
+	background:url("../images/15312113912538863.jpg") center no-repeat;
+	background-size: 100% 100%;
+}
+
+
+@media screen and (max-width: 782px) {
+    .first{
+		background: url("../images/small1.jpg") center no-repeat;
+		background-size: 100% 100%;
+	}
+	.second{
+		background:url("../images/small2.jpg") center no-repeat;
+		background-size: 100% 100%;
+	}
+	.third{
+		background:url("../images/small3.jpg") center no-repeat;
+		background-size: 100% 100%;
+	}
+}
