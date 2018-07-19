@@ -57,6 +57,7 @@
                     })
                 }
                 move('prev');
+                console.log(index);
             }
             $next.on('click', next)
 
@@ -79,6 +80,8 @@
                     })
                 }
                 move('next');
+                console.log(index);
+
             }
 
             function move(direction) {
@@ -128,6 +131,12 @@
                             cnt++;
                         }
                         $liShowNum = options.num[cnt];
+
+                        if (index + $liShowNum >= $slideNum) {
+                            index = index - $slideNum / 2;
+                        }
+
+
                         setWidth($liShowNum);
                         setSlideHeight();
                         $slideUl

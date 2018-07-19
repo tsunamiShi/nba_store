@@ -199,8 +199,8 @@
 			function progressResize(){
 				$(window)
 					.resize(function(){
-						console.log('触发');
-						console.log(window.innerWidth)
+						// console.log('触发');
+						// console.log(window.innerWidth);
 						progressWidth = slider.width();
 						
 						if(window.innerWidth <= 782 ){
